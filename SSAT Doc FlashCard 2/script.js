@@ -373,7 +373,7 @@ next_button.addEventListener("click", function() {
     question_content.innerHTML = questions_bank[flashCard_no].vocabulary_word;
     answer_no.innerHTML = questions_bank[flashCard_no].id;
     answer_content.innerHTML = questions_bank[flashCard_no].definition;
-    example.innerHTML = questions_bank[0].example;
+    example.innerHTML = questions_bank[flashCard_no].example;
     
 
     MathJax.typeset();
@@ -403,6 +403,8 @@ previous_button.addEventListener("click", function() {
     answer_no.innerHTML = questions_bank[flashCard_no].id;
     answer_content.innerHTML = questions_bank[flashCard_no].definition;
     front_flash_card.style.display = "flex";
+    example.innerHTML = questions_bank[flashCard_no].example;
+
 
 
     MathJax.typeset();
