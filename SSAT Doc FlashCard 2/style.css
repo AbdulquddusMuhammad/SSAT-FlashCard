@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      height: 600px;
+      width: 100vw;
+      box-sizing: border-box;
+      background: grey;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-seriff;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .flashcard-container {
+      background: linear-gradient(90deg, orange, orange, #ffff, orange, orange);
+      background-size: 300%;
+      background-position: 154px 0;
+      width: 300px;
+      height: 400px;
+      border-radius: 12px;
+      padding: 1rem;
+      transition: 1s;
+      border: 3px solid black;
+      border-top: none;
+      border-left: none;
+  }
+  
+  .front, .back {
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+  }
+  
+  .back {
+    display: none;
+    transform: rotateY(180deg);
+  }
+
+  .question-content {
+    font-size: 2rem;
+  }
+
+  .question, .answer {
+    /* font-weight: bold; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+  }
+  
+  .front span:nth-child(2), .back span:nth-child(2), .back span:nth-child(4) {
+   margin: 4rem 0 1rem 1rem;
+   font-weight: bold;
+   font-size: 1rem;
+  }
+  
+  .to-back {
+     transition: 1s;
+     transform: rotateY(180deg);
+  }
+  
+  .flash-card-no-nav {
+    margin-top: 2rem;
+  }
+  
+  .flash-card-no-nav button {
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    width: 200px;
+    transition: 1s;
+  }
+  
+  
+  
+  .clicked {
+    background-color: orange !important;
+    color: white !important;
+    transition: 1s !important;
+  }
+
+  .flashcard-reflect {
+    background: linear-gradient(90deg, orange, orange, #ffff, orange, orange);
+    background-size: 300%;
+    background-position: 154px 0;
+    animation: reflect .5s linear;
+  }
+
+  @keyframes reflect {
+  0% {
+    background-position: 100% 0;
+  }    
+
+  100% {
+    background-position: 0 0;
+  }
+  }
