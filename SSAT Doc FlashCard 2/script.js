@@ -233,6 +233,126 @@ const questions_bank = [
         definition: "Adjective: Not readily relinquishing a position or principle; determined.",
         example: "The tenacious journalist pursued the story despite obstacles."
     }
+        {
+        id: 31,
+        vocabulary_word: "Trivial",
+        definition: "Adjective: Of little value or importance.",
+        example: "The argument over the color of the walls seemed trivial compared to the bigger issues."
+    },
+    {
+        id: 32,
+        vocabulary_word: "Vivid",
+        definition: "Adjective: Producing powerful feelings or strong, clear images in the mind.",
+        example: "Her vivid description of the landscape painted a beautiful picture."
+    },
+    {
+        id: 33,
+        vocabulary_word: "Oblivious",
+        definition: "Adjective: Not aware of or concerned about what is happening around one.",
+        example: "He was oblivious to the fact that everyone had already left the party."
+    },
+    {
+        id: 34,
+        vocabulary_word: "Enigmatic",
+        definition: "Adjective: Mysterious or difficult to understand.",
+        example: "The enigmatic smile on her face made everyone wonder what she was thinking."
+    },
+    {
+        id: 35,
+        vocabulary_word: "Rejuvenate",
+        definition: "Verb: To make someone or something look or feel better, younger, or more lively.",
+        example: "A good night’s sleep can rejuvenate your body and mind."
+    },
+    {
+        id: 36,
+        vocabulary_word: "Superficial",
+        definition: "Adjective: Existing or occurring at or on the surface; shallow.",
+        example: "His understanding of the subject was superficial, lacking depth."
+    },
+    {
+        id: 37,
+        vocabulary_word: "Trepidation",
+        definition: "Noun: A feeling of fear or anxiety about something that may happen.",
+        example: "She approached the stage with trepidation before giving her speech."
+    },
+    {
+        id: 38,
+        vocabulary_word: "Exemplary",
+        definition: "Adjective: Serving as a desirable model; representing the best of its kind.",
+        example: "His exemplary behavior in class earned him a certificate of achievement."
+    },
+    {
+        id: 39,
+        vocabulary_word: "Apathy",
+        definition: "Noun: Lack of interest, enthusiasm, or concern.",
+        example: "The student’s apathy toward his studies led to his poor grades."
+    },
+    {
+        id: 40,
+        vocabulary_word: "Ponder",
+        definition: "Verb: To think about something carefully, especially before making a decision or forming an opinion.",
+        example: "He took a moment to ponder the question before answering."
+    },
+    {
+        id: 41,
+        vocabulary_word: "Metamorphosis",
+        definition: "Noun: A change of the form or nature of a thing or person into a completely different one.",
+        example: "The caterpillar’s metamorphosis into a butterfly is fascinating."
+    },
+    {
+        id: 42,
+        vocabulary_word: "Disparage",
+        definition: "Verb: To speak about someone or something in a way that shows strong disapproval and lack of respect.",
+        example: "The critic disparaged the movie, calling it a waste of time."
+    },
+    {
+        id: 43,
+        vocabulary_word: "Rescind",
+        definition: "Verb: To revoke, cancel, or repeal a law, order, or agreement.",
+        example: "The company decided to rescind the policy after receiving customer complaints."
+    },
+    {
+        id: 44,
+        vocabulary_word: "Prudent",
+        definition: "Adjective: Acting with or showing care and thought for the future.",
+        example: "It is prudent to save money for unexpected expenses."
+    },
+    {
+        id: 45,
+        vocabulary_word: "Dubious",
+        definition: "Adjective: Hesitating or doubting; not to be relied upon.",
+        example: "His dubious claim about the product's effectiveness raised some questions."
+    },
+    {
+        id: 46,
+        vocabulary_word: "Stagnant",
+        definition: "Adjective: Not flowing or moving; inactive.",
+        example: "The stagnant water in the pond began to grow algae."
+    },
+    {
+        id: 47,
+        vocabulary_word: "Vicarious",
+        definition: "Adjective: Experienced in the imagination through the feelings or actions of another person.",
+        example: "She lived vicariously through her friend’s travels, hearing about every adventure."
+    },
+    {
+        id: 48,
+        vocabulary_word: "Furtive",
+        definition: "Adjective: Secretive, attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble.",
+        example: "He cast a furtive glance at the clock, worried he was running late."
+    },
+    {
+        id: 49,
+        vocabulary_word: "Ameliorate",
+        definition: "Verb: To make something better or more tolerable.",
+        example: "The new policy aims to ameliorate the working conditions for employees."
+    },
+    {
+        id: 50,
+        vocabulary_word: "Jovial",
+        definition: "Adjective: Cheerful and friendly.",
+        example: "His jovial personality made him popular at parties."
+    }
 ];
 
 
