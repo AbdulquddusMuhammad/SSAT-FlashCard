@@ -232,8 +232,8 @@ const questions_bank = [
         vocabulary_word: "Tenacious",
         definition: "Adjective: Not readily relinquishing a position or principle; determined.",
         example: "The tenacious journalist pursued the story despite obstacles."
-    }
-        {
+    },
+    {
         id: 31,
         vocabulary_word: "Trivial",
         definition: "Adjective: Of little value or importance.",
